@@ -1,4 +1,7 @@
 import React from 'react';
+import headshot from '../assets/Aminat Adebayo Headshot.JPG';
+import resume from '../assets/Aminat_Adebayo Resume.pdf'
+
 
 const About = () => {
   return (
@@ -15,7 +18,7 @@ const About = () => {
         <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
           <div className='sm:text-right text-4xl font-bold'>
             <div className='aspect-w-1 aspect-h-1 w-full h-auto max-w-[200px] sm:max-w-[200px]'>
-              <img src='src/assets/Aminat Adebayo Headshot.JPG' alt='Headshot'
+              <img src={headshot} alt='Headshot'
                 className='object-cover w-full h-full'/>
             </div>
           </div>
@@ -26,7 +29,7 @@ const About = () => {
                 <br/>
                  Outside of work, I hang out with friends and family, try new foods, play tennis, yoga, attend meet ups, and help host Tech Gather NYC!
                 </p>  
-                <a href='/assets/Aminat_Adebayo Resume.pdf'
+                <a href= {resume}
                   className='border-4 px-6 py-3 my-2 flex items-center hover:bg-[#8892b0] hover:border-[#8892b0]'
                   >Download My Resume</a>
             </div>
