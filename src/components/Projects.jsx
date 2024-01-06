@@ -36,7 +36,7 @@ const Projects = () => {
         Tech Stack: {item.tech}
       </span>
       <div className="pt-8 text-center ">
-        <a href={item.github} target="_blank">
+        <a href={item.github} target="_blank" rel="noreferrer">
           <button
             className="text-center rounded-lg px-4 py-3 m-2
                        bg-[#8892b0] text-gray-700 font-bold text-lg"
@@ -44,7 +44,7 @@ const Projects = () => {
             Github
           </button>
         </a>
-        <a href={item.live} target="_blank">
+        <a href={item.live} target="_blank" rel="noreferrer">
           <button
             className="text-center rounded-lg px-4 py-3 m-2
                        bg-[#8892b0] text-gray-700 font-bold text-lg"
