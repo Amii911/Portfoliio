@@ -1,9 +1,10 @@
+import Navbar from "./components/Navbar";
 
 
 function App() {
   return (
     <div>
-      Aminat is the greatest
+      <Navbar/>
     </div>
   );
 }
