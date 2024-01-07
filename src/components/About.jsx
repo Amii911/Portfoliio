@@ -31,11 +31,7 @@ const About = () => {
               my skills in JavaScript, HTML, CSS, React, Python, SQLite, SQL
               Alchemy, and Flask.
               <br />
-              Passionate about continual learning in the dynamic field of
-              software engineering, I pride myself on being a lifelong learner
-              and a skilled problem-solver. Beyond work, I enjoy spending time
-              with friends and family, exploring new foods, play tennis, yoga,
-              attend meetups, and help host Tech Gather NYC!
+              Passionate about continual learning in the dynamic field of software engineering, I pride myself on being a lifelong learner and a skilled problem-solver. Beyond work, I enjoy spending time with friends and family, exploring new foods, playing tennis, practicing yoga, attending meetups, and helping host Tech Gather NYC!
             </p>
             <a
               href={resume}
