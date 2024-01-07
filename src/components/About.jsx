@@ -1,6 +1,6 @@
 import React from 'react';
 import headshot from '../assets/Aminat Adebayo Headshot.JPG';
-import resume from '../assets/Aminat_Adebayo Resume.pdf'
+import resume from '../assets/Aminat Adebayo Resume.pdf'
 
 
 const About = () => {
