@@ -17,23 +17,36 @@ const About = () => {
         </div>
         <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
           <div className='sm:text-right text-4xl font-bold'>
-            <div className='aspect-w-1 aspect-h-1 w-full h-auto max-w-[200px] sm:max-w-[200px]'>
-              <img src={headshot} alt='Headshot'
-                className='object-cover w-full h-full'/>
+            <div className='aspect-w-1 aspect-h-1 w-full h-auto max-w-[100px] sm:max-w-[200px]'>
+              <img
+                src={headshot}
+                alt='Headshot'
+                className='w-full h-full object-cover' 
+              />
             </div>
           </div>
-            <div>
-                <p>I am a Software Engineer based in Brooklyn, NY. In September 2022, I made a bold career shift, transitioning from a role as a Paralegal to immerse myself in the challenges of the tech world.
-                <br/>
-                I recently graduated from a coding bootcamp, where I developed and deployed applications using JavaScript, HTML, CSS, React, Python, SQLite, SQL Alchemy, and Flask. I discovered my passion for software engineering after I discovered the perpetual learning in the dynamic field of software engineering. I pride myself in being a life long learner.
-                <br/>
-                 Outside of work, I hang out with friends and family, try new foods, play tennis, yoga, attend meet ups, and help host Tech Gather NYC!
-                </p>  
-                <a href= {resume}
-                  className='border-4 px-6 py-3 my-2 flex items-center hover:bg-[#8892b0] hover:border-[#8892b0]'
-                  >Download My Resume</a>
-            </div>
+          <div>
+            <p>
+              I'm a Software Engineer based in Brooklyn, NY, who boldly shifted
+              from a Paralegal role to pursue the challenges of the tech world
+              in September 2022. A recent coding bootcamp graduate, I've honed
+              my skills in JavaScript, HTML, CSS, React, Python, SQLite, SQL
+              Alchemy, and Flask.
+              <br />
+              Passionate about continual learning in the dynamic field of
+              software engineering, I pride myself on being a lifelong learner
+              and a skilled problem-solver. Beyond work, I enjoy spending time
+              with friends and family, exploring new foods, play tennis, yoga,
+              attend meetups, and help host Tech Gather NYC!
+            </p>
+            <a
+              href={resume}
+              className='border-4 px-6 py-3 my-2 flex items-center hover:bg-[#8892b0] hover:border-[#8892b0]'
+            >
+              Download My Resume
+            </a>
           </div>
+        </div>
       </div>
     </div>
   );
