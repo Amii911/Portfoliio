@@ -13,18 +13,17 @@ const TAILWIND_LOGO = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuj
 
 const Skills = () => {
     return (
-      <div name='skills' className='w-full h-screen bg-[#f1ecea] text-[#1f2435] mt-8 md:mt-16'>
-        
-        <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
-            <div>
-                <p className='text-4xl font-bold inline border-b-4 '>Skills</p>
-                {/* <p className='py-4'> Technologies I've worked with</p> */}
+        <div name='skills' className='w-full bg-[#f1ecea] text-[#1f2435] mt-8 md:mt-16'>
+        <div className='max-w-[1000px] mx-auto p-4'>
+          <div>
+            <p className='text-4xl font-bold inline border-b-4 '>Skills</p>
+          </div>
+          <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 text-center py-8'>
+            {/* Repeat the following block for each skill */}
+            <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+              <img className='w-20 mx-auto' src={PY_LOGO} alt="Python icon" />
+              <p className='my-4'>Python</p>
             </div>
-            <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8'>
-                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                    <img className='w-20 mx-auto' src={PY_LOGO} alt="Python icon" />
-                    <p className='my-4'>Python</p>
-                </div> 
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                     <img className='w-20 mx-auto' src={JAVA_LOGO} alt="Java icon" />
                     <p className='my-4'>Java</p>
