@@ -27,7 +27,7 @@ const About = () => {
           </div>
           <div>
             <p>
-              I'm a Software Engineer based in Brooklyn, NY, who courageously transitioned from a Paralegal role to immerse myself in the dynamic world of technology in September 2022. A recent coding bootcamp graduate, I've honed
+              I'm a Software Engineer based in Brooklyn, NY, who courageously transitioned from a Paralegal role to immerse myself in the dynamic world of technology. A recent coding bootcamp graduate, I've honed
               my skills in JavaScript, HTML, CSS, React, Python, SQLite, SQL
               Alchemy, and Flask.
               <br />
